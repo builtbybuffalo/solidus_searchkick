@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.licenses    = ['MIT']
   s.summary     = 'Add searchkick to Solidus'
   s.description = 'Filters, suggests, autocompletes, sortings, searches'
-  s.required_ruby_version = '>= 2.0.0'
+  s.required_ruby_version = '>= 2.2.2'
 
   s.author    = ['Jim Smith']
   s.email     = ['jim@jimsmithdesign.com']
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency     'solidus', '~> 1.4', '>= 1.4.0'
+  s.add_runtime_dependency     'solidus', '~> 2.0.0'
   s.add_runtime_dependency     'searchkick', '~> 1.2'
 
   s.add_development_dependency 'capybara', '~> 2.4'
